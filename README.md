@@ -4,14 +4,14 @@ Product-slider for miniShop2 (Modx) deversifies the presentation of products and
 What we need:
 1. To download and to integrate Owl Carousel from https://owlcarousel2.github.io/OwlCarousel2/ accroding to your web-site style.
 2. To use msProducts where:<br/>
-   &tpl=`your tpl name` // the chunk, where you place owl-item
-   &limit=`your item limit` // the quantity of visible owl-items
-   &parents=`your id` // the id of parent-page
-   &resources=`id` // to choose the products by id
-   &includeThumbs=`45x45` // to indicate the sizes of previews
-    &includeTVs=`1` // are optional if you use some tv in tpl
+   &tpl=`your tpl name` // the chunk, where you place owl-item<br/>
+   &limit=`your item limit` // the quantity of visible owl-items<br/>
+   &parents=`your id` // the id of parent-page<br/>
+   &resources=`id` // to choose the products by id<br/>
+   &includeThumbs=`45x45` // to indicate the sizes of previews<br/>
+    &includeTVs=`1` // are optional if you use some tv in tpl<br/>
 		&processTvs=`1` // are optional if you use &includeTVs
 	  
- 3. To insert <a href="{$id | url}"><img src="{$thumb}" alt=""></a> into the div with the class="owl-item" where:
-    {$id | url} is a link to the related product page
+ 3. To insert <a href="{$id | url}"><img src="{$thumb}" alt=""></a> into the div with the class="owl-item" where:<br/>
+    {$id | url} is a link to the related product page<br/>
     {$thumb} is a source for image preview
