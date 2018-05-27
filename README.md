@@ -11,7 +11,7 @@ What we need:
    &includeThumbs=`45x45` // to indicate the sizes of previews
     &includeTVs=`1` // are optional if you use some tv in tpl
 		&processTvs=`1` // are optional if you use &includeTVs
-	  &tvPrefix=``   // are optional
+	  
  3. To insert <a href="{$id | url}"><img src="{$thumb}" alt=""></a> into the div with the class="owl-item" where:
     {$id | url} is a link to the related product page
     {$thumb} is a source for image preview
