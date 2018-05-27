@@ -7,6 +7,18 @@
   <title>Product-slider</title>
 </head>
 <body>
-   Here it will be a product-slider of relited goods for miniShop2 (MODX)
+   <h1>Here it will be a product-slider of relited goods for miniShop2 (MODX)</h1>
+   <div class="row-carousel owl-carousel owl-theme">
+      [[msProducts?
+        &limit=`5`
+        &tpl=`Cart_related`
+        &parents=`4`
+        &resources=`[[+id]]`
+        &includeThumbs=`185x145`
+        &includeTVs=`1`
+        &processTvs=`1`
+        &tvPrefix=``
+       ]]
+		</div>
 </body>
 </html>
