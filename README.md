@@ -12,6 +12,6 @@ What we need:
     &includeTVs=`1` // are optional if you use some tv in tpl<br/>
 		&processTvs=`1` // are optional if you use &includeTVs
 	  
- 3. To insert <a href="{$id | url}"><img src="{$thumb}" alt=""></a> into the div with the class="owl-item" where:<br/>
-    {$id | url} is a link to the related product page<br/>
-    {$thumb} is a source for image preview
+ 3. To insert a link into the div with the class="owl-item" where:<br/>
+    href={$id | url} is a link to the related product page<br/>
+    src={$thumb} is a source for image preview
